@@ -10,12 +10,23 @@
 <body>
     <div class="menu">
         <header>
-            <h2>Cafe Menu</h2>
+            <div class="logo">
+                <img src="logo.png" height="40" alt="logo">
+                <h2>Cafe Menu</h2>
+            </div>
             <a href="index.html"><img src="home-icon.png" height="30" alt="home"></a>
         </header>
         <main>
+            <section class="options">
+                <select name="options" id="options">
+                    <option value="card">Сите</option>
+                    <option value="gazirani-sokovi">Газирани Сокови</option>
+                    <option value="piva">Пива</option>
+                    <option value="kokteli">Коктели</option>
+                </select>
+            </section>
             <section class="articles">
-                <div class="card">
+                <div class="piva card">
                     <img src="drinks/heineken.png" alt="heineken">
                     <div class="namePrice">
                         <h2>Heineken</h2>
@@ -25,7 +36,7 @@
                         Beer
                     </div>
                 </div>
-                <div class="card">
+                <div class="piva card">
                     <img src="drinks/skopsko.png" alt="skopsko">
                     <div class="namePrice">
                         <h2>Skopsko</h2>
@@ -35,7 +46,7 @@
                         Beer
                     </div>
                 </div>
-                <div class="card">
+                <div class="kokteli card">
                     <img src="drinks/blue-lagoon.png" alt="blue lagoon">
                     <div class="namePrice">
                         <h2>Blue Lagoon</h2>
@@ -45,7 +56,7 @@
                         Vodka, blue curaçao, lemonade, maraschino cherry
                     </div>
                 </div>
-                <div class="card">
+                <div class="kokteli card">
                     <img src="drinks/paloma.png" alt="paloma">
                     <div class="namePrice">
                         <h2>Paloma Coctail</h2>
@@ -55,7 +66,7 @@
                         Lime juice, agave tequila, pink grapefruit soda, salt
                     </div>
                 </div>
-                <div class="card">
+                <div class="gazirani-sokovi card">
                     <img src="drinks/coca-cola.png" alt="coca cola">
                     <div class="namePrice">
                         <h2>Coca Cola</h2>
@@ -65,7 +76,7 @@
                         Soda Drink
                     </div>
                 </div>
-                <div class="card">
+                <div class="gazirani-sokovi card">
                     <img src="drinks/fanta.png" alt="fanta">
                     <div class="namePrice">
                         <h2>Fanta</h2>
