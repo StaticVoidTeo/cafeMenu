@@ -121,3 +121,37 @@ footer{
 .options select:focus{
     outline:none;
 }
+
+iframe{
+    max-width:80vw;
+    height:40vh;
+}
+
+.socialMedia{
+    z-index:999;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    position:fixed;
+    bottom:10px;
+    left:10px;
+}
+
+.showMedia{
+    cursor:pointer;
+    text-align:center;
+    font-size:30px;
+    background:white;
+    border-radius:100px;
+    padding:14px 5px 10px 5px;
+    box-shadow:0 0 10px;
+}
+
+.socialMedia img{
+    border-radius:100px;
+    box-shadow:0 0 10px;
+    cursor:pointer;
+    display:none;
+    width:53px;
+    height:53px;
+}
