@@ -181,13 +181,13 @@ address{
 }
 
 @keyframes fb{
-    from {transform:translateX(-78px);}
-    to {transform:translateX(0);}
+    from {transform:translateX(-78px);opacity:0;}
+    to {transform:translateX(0);opacity:1;}
 }
 
 @keyframes insta{
-    from {transform:translateX(-156px);}
-    to {transform:translateX(0);}
+    from {transform:translateX(-156px);opacity:0;}
+    to {transform:translateX(0);opacity:1;}
 }
 
 #fb{
