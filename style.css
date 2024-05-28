@@ -52,6 +52,10 @@ header h2{
     font-weight:700;
 }
 
+#home-icon:active{
+    opacity:0.8;
+}
+
 main{
     display:flex;
     flex-direction:column;
