@@ -1,4 +1,4 @@
-const select = document.querySelector(".options select");
+// const select = document.querySelector(".options select");
 const socialMedia = document.querySelector(".socialMedia");
 const dotDot = document.querySelector(".showMedia");
 const fb = document.querySelector("#fb");
@@ -17,22 +17,12 @@ window.addEventListener("scroll", () => {
 
 dotDot.addEventListener("click", () => {
     if(socialShown){
-        socialShown = false;
         fb.style = "display:none;";
         insta.style = "display:none;";
     }
     else{
-        socialShown = true;
-        fb.style = "display:block;";
-        insta.style = "display:block;";
+        fb.style = "display:flex;";
+        insta.style = "display:flex;";
     }
-})
-
-select.addEventListener("change", () => {
-    document.querySelectorAll(".card").forEach(el => {
-        el.style = "display:none;";
-    })
-    document.querySelectorAll(`.${select.value}`).forEach(el => {
-        el.style = "display:block;";
-    })
+    socialShown = !socialShown;
 })
